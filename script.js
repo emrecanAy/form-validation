@@ -21,7 +21,7 @@ function success(input){
 //Checking the passwords to match
 function checkPasswords(input1, input2){
     if(input1.value !== input2.value){
-        error(input2, "Password are not matching!");
+        error(input2, "Passwords are not matching!");
     }
 }
 
